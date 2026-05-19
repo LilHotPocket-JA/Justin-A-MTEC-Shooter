@@ -29,7 +29,7 @@ public class FPSControl : MonoBehaviour
     private Item heldItem;
     public float throwForce = 5;
 
-    public int bCount;
+    public static int bCount;
 
     public GameObject holster; // Used to give it a location 
 

@@ -5179,10 +5179,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 1699101807069034195, guid: 631e1fb15c7f55243ac74e1b0ca636b8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8838,10 +8834,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1699101807069034195, guid: 631e1fb15c7f55243ac74e1b0ca636b8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11069,7 +11061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd09e7ccbf2c6a4881374be85e3ba91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
-  gameTime: 60
+  gameTime: 180
   newScene: Win Rate
   slider: {fileID: 2110912882}
 --- !u!4 &2142168389 stripped

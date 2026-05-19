@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     public string newScene;
     [SerializeField] private Slider slider;
 
+    
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,6 +37,7 @@ public class Timer : MonoBehaviour
 
     public void ChangeScene()
     {
+      
         SceneManager.LoadScene(newScene);
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject[] enemyPr;
-    private float spawnRate = 1000;
+    private float spawnRate = 30;
     private float TSLSpawn;
     public Transform spawnPoint;
     public Transform[] wayP;
