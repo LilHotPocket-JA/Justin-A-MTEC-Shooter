@@ -185,5 +185,10 @@ public class FPSControl : MonoBehaviour
 
     }
 
+    public int GetBodyCount()
+    {
+        return bCount;
+    }
+
 
 }
